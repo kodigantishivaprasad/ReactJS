@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First html</title>
+    <style>
+        #label1 {
+            font-size: 25px;
+            color:black
+            margin-right: 60px;
+            display: block;
+            margin-top: 20px;
+            margin-left: 50px;
+        }
+
+        #label2 {
+            font-size: 25px;
+            color: black;
+            margin-right: 10px;
+            display: flex;
+            margin-top: 20px;
+            margin-left: 50px;
+        }
+
+        input {
+            height: 25px;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            margin-top: 5px;
+            margin-left: 50px;
+        }
+
+        .button1 {
+            height: 35px;
+            border: none;
+            width: 150px;
+            font-size: 25px;
+            background-color:darkslategray;
+            text-align: center;
+            border-radius: 25px;
+            box-shadow: 5px 5px 5px 5px red;
+            margin-left: 60px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+
+        div{
+            margin: auto;
+
+            margin-top: auto;
+            border: black 1px solid;
+            box-shadow: 5px 5px 5px 5px red;
+            border-radius: 10px;
+            /* margin-left: 200px;
+            margin-top: 200px; */
+            height: 300px;
+            width: 300px;
+            justify-content: center;
+            align-items: center;
+            background-color: grey;
+            background: transparent;
+            /* position: absolute; */
+            
+        }
+
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0px;
+            background-color: pink;
+            background-image: url('flower.jpg');
+            background-size: cover;
+            height: 100vh; /* Full viewport height */
+
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <label id="label1">Enter username</label>
+        <input type="text"><br>
+
+        <label id="label2">Enter your password</label>
+        <input type="password"><br>
+
+        <button class="button1" type="submit">Submit</button>
+    </div>
+</body>
+
+</html>

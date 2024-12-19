@@ -1,0 +1,6 @@
+1.What is ReactJS?
+    ReactJs is a front-end javascript library and used for building
+    component based user interface(UI)
+
+2.What is component?
+    React componenrs are small,reusable pieces of code that returns to be rendered to the page.
